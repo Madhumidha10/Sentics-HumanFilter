@@ -21,3 +21,13 @@ You can install the necessary dependencies by running:
 
 ```bash
 npm install
+
+
+Starting the Server
+To start the server, run:
+
+
+node server.js
+The server will start running on http://localhost:4000.
+
+Make sure QuestDB is running on http://localhost:9000 (default).
