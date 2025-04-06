@@ -49,6 +49,7 @@ endTime: The end timestamp for the time range (Unix timestamp).
 **Example Request:**
 
 GET http://localhost:4000/questdb/graph-data?metric=number_of_humans&startTime=1615284697&endTime=1615288297
+
 **Example Response:**
 
 [
@@ -73,6 +74,7 @@ endTime: The end timestamp for the time range (Unix timestamp).
 **Example Request:**
 
 GET http://localhost:4000/questdb/heatmap-data?startTime=1615284697&endTime=1615288297
+
 **Example Response:**
 
 [
@@ -90,6 +92,7 @@ GET http://localhost:4000/questdb/heatmap-data?startTime=1615284697&endTime=1615
   },
   ...
 ]
+
 ### Error Handling
 If there's an error while fetching data from QuestDB or in the server code, the response will contain a message with details about the error:
 
