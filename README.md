@@ -19,11 +19,10 @@ The following dependencies are required for the server:
 
 You can install the necessary dependencies by running:
 
-```bash
 npm install
 
 
-Starting the Server
+### Starting the Server
 To start the server, run:
 
 
